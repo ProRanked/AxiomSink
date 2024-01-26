@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.4.0</Version>
+    <OutputType>Library</OutputType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AxiomSink</PackageId>
+    <Authors>ProRanked</Authors>
+    <Company>ProRanked</Company>
+    <Product>AxiomSink</Product>
+    <Description>C# Implementation of Serilog for Axiom</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>AxiomSink</PackageReleaseNotes>
+    <PackageTags>AxiomSink</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="RestSharp" Version="110.2.0" />
+      <PackageReference Include="Serilog" Version="3.1.1" />
+    </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services/" />
+  </ItemGroup>
+
+</Project>
