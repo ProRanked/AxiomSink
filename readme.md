@@ -1,3 +1,5 @@
+[![Publish to GitHub Packages](https://github.com/ProRanked/AxiomSink/actions/workflows/publishgithubpackages.yml/badge.svg)](https://github.com/ProRanked/AxiomSink/actions/workflows/publishgithubpackages.yml)
+
 ## Get Token from Axiom
 
 Create a Dataset in Axiom and get a token to use.
