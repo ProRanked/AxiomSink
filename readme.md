@@ -10,6 +10,8 @@ Download the nuget from Github Packages and Download Serilog, you then configure
 
 ```c#
 
+using ProRanked.Axiom.Sinks;
+
 _logger = new LoggerConfiguration()
     .WriteTo.Axiom("your-dataset", "your-token")
     .CreateLogger();
