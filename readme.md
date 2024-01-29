@@ -1,8 +1,8 @@
 [![Publish to GitHub Packages](https://github.com/ProRanked/AxiomSink/actions/workflows/publishgithubpackages.yml/badge.svg)](https://github.com/ProRanked/AxiomSink/actions/workflows/publishgithubpackages.yml)
 
-## Get Token from Axiom
+## Serilog C# Implementation for Axiom in .NET8
 
-Create a Dataset in Axiom and get a token to use.
+Requirements: Create a Dataset in Axiom and get a token to use.
 
 ## How to Use
 
